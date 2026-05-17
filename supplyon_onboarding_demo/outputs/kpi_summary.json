@@ -1,0 +1,92 @@
+{
+  "total_suppliers": 60,
+  "completed_suppliers": 8,
+  "incomplete_suppliers": 52,
+  "completion_rate_pct": 13.3,
+  "suppliers_by_segment": {
+    "invited_no_action": 17,
+    "overdue_escalation": 11,
+    "completed": 8,
+    "started_incomplete": 6,
+    "missing_master_data": 6,
+    "technical_setup_pending": 4,
+    "contract_pending": 4,
+    "in_progress": 4,
+    "not_started": 0
+  },
+  "escalations_count": 19,
+  "overdue_count": 17,
+  "english_outreach_count": 5,
+  "german_outreach_count": 24,
+  "average_days_since_rollout": 24.9,
+  "top_blocker_reasons": {
+    "No response after invitation": 17,
+    "Overdue onboarding case": 11,
+    "Incomplete registration steps": 10,
+    "Completed": 8,
+    "Missing contact or master data": 6
+  },
+  "top_10_highest_risk_suppliers": [
+    {
+      "supplier_id": "SUP-056",
+      "supplier_name": "Dold GmbH",
+      "status_segment": "contract_pending",
+      "overall_score": 90
+    },
+    {
+      "supplier_id": "SUP-002",
+      "supplier_name": "Bosch GmbH",
+      "status_segment": "overdue_escalation",
+      "overall_score": 85
+    },
+    {
+      "supplier_id": "SUP-003",
+      "supplier_name": "Magna International",
+      "status_segment": "overdue_escalation",
+      "overall_score": 85
+    },
+    {
+      "supplier_id": "SUP-016",
+      "supplier_name": "Siemens AG",
+      "status_segment": "overdue_escalation",
+      "overall_score": 85
+    },
+    {
+      "supplier_id": "SUP-004",
+      "supplier_name": "Continental AG",
+      "status_segment": "technical_setup_pending",
+      "overall_score": 60
+    },
+    {
+      "supplier_id": "SUP-014",
+      "supplier_name": "ThyssenKrupp AG",
+      "status_segment": "contract_pending",
+      "overall_score": 60
+    },
+    {
+      "supplier_id": "SUP-033",
+      "supplier_name": "WITTE Automotive",
+      "status_segment": "contract_pending",
+      "overall_score": 60
+    },
+    {
+      "supplier_id": "SUP-047",
+      "supplier_name": "SMS Group",
+      "status_segment": "technical_setup_pending",
+      "overall_score": 60
+    },
+    {
+      "supplier_id": "SUP-031",
+      "supplier_name": "Brose Fahrzeugteile",
+      "status_segment": "technical_setup_pending",
+      "overall_score": 58
+    },
+    {
+      "supplier_id": "SUP-006",
+      "supplier_name": "Denso Corporation",
+      "status_segment": "overdue_escalation",
+      "overall_score": 55
+    }
+  ],
+  "processed_at": "2026-05-17T13:21:23.885751"
+}

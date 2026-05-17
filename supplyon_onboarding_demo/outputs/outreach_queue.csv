@@ -1,0 +1,30 @@
+supplier_id,supplier_name,buyer_name,preferred_language,status_segment,blocker_reason,overall_score,recommended_action,template_key
+SUP-005,ZF Friedrichshafen,Volkswagen AG,de,invited_no_action,no_response_after_invite,35,send_reminder_1,email_invited_no_action_de
+SUP-007,Valeo GmbH,Mercedes-Benz AG,en,started_incomplete,incomplete_registration_steps,45,send_missing_data_request,email_missing_data_en
+SUP-008,Aptiv PLC,Volkswagen AG,en,invited_no_action,no_response_after_invite,25,send_reminder_1,email_invited_no_action_en
+SUP-009,HELLA GmbH,BMW AG,de,started_incomplete,incomplete_registration_steps,35,send_missing_data_request,email_missing_data_de
+SUP-014,ThyssenKrupp AG,Mercedes-Benz AG,de,contract_pending,contract_signature_pending,60,send_contract_help,email_contract_blocked_de
+SUP-015,BASF SE,Volkswagen AG,de,invited_no_action,no_response_after_invite,18,send_reminder_2,email_invited_no_action_de
+SUP-017,ABB AG,Mercedes-Benz AG,de,invited_no_action,no_response_after_invite,20,send_reminder_1,email_invited_no_action_de
+SUP-018,ElringKlinger AG,Volkswagen AG,de,started_incomplete,incomplete_registration_steps,25,send_missing_data_request,email_missing_data_de
+SUP-020,Grupo Antolin,Mercedes-Benz AG,en,invited_no_action,no_response_after_invite,28,send_reminder_1,email_invited_no_action_en
+SUP-021,Leoni AG,Volkswagen AG,de,started_incomplete,incomplete_registration_steps,25,send_missing_data_request,email_missing_data_de
+SUP-023,Stabilus GmbH,Mercedes-Benz AG,de,invited_no_action,no_response_after_invite,18,send_reminder_2,email_invited_no_action_de
+SUP-024,Hanon Systems,Volkswagen AG,en,invited_no_action,no_response_after_invite,20,send_reminder_1,email_invited_no_action_en
+SUP-025,Marelli Europe,BMW AG,en,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_en
+SUP-031,Brose Fahrzeugteile,BMW AG,de,technical_setup_pending,technical_connection_pending,58,send_technical_guidance,email_technical_guidance_de
+SUP-032,Eberspächer Group,Mercedes-Benz AG,de,invited_no_action,no_response_after_invite,28,send_reminder_1,email_invited_no_action_de
+SUP-033,WITTE Automotive,Volkswagen AG,de,contract_pending,contract_signature_pending,60,send_contract_help,email_contract_blocked_de
+SUP-035,Kirchhoff Automotive,Mercedes-Benz AG,de,started_incomplete,incomplete_registration_steps,35,send_missing_data_request,email_missing_data_de
+SUP-037,Mubea Group,BMW AG,de,technical_setup_pending,technical_connection_pending,55,send_technical_guidance,email_technical_guidance_de
+SUP-040,INDUS Holding,BMW AG,de,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_de
+SUP-044,Jokey Group,Mercedes-Benz AG,de,started_incomplete,incomplete_registration_steps,25,send_missing_data_request,email_missing_data_de
+SUP-045,Friedola Gebr. Holzapfel,Volkswagen AG,de,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_de
+SUP-046,Primetals Technologies,BMW AG,de,invited_no_action,no_response_after_invite,38,send_reminder_1,email_invited_no_action_de
+SUP-050,Hydac Group,Mercedes-Benz AG,de,invited_no_action,no_response_after_invite,28,send_reminder_1,email_invited_no_action_de
+SUP-055,BKM Industrie GmbH,BMW AG,de,contract_pending,contract_signature_pending,40,send_contract_help,email_contract_blocked_de
+SUP-056,Dold GmbH,Mercedes-Benz AG,de,contract_pending,contract_signature_pending,90,send_contract_help,email_contract_blocked_de
+SUP-057,MBG GmbH,Volkswagen AG,de,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_de
+SUP-058,AKS GmbH,BMW AG,de,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_de
+SUP-059,FTG GmbH,Mercedes-Benz AG,de,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_de
+SUP-060,Draenert GmbH,Volkswagen AG,de,invited_no_action,no_response_after_invite,10,send_reminder_1,email_invited_no_action_de

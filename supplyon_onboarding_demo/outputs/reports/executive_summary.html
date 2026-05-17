@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Supplier Onboarding Acceleration - Executive Summary</title>
+<style>
+body { font-family: -apple-system, sans-serif; max-width: 1100px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+h1, h2, h3 { color: #333; }
+.kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0; }
+.kpi-card { background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.kpi-card .value { font-size: 28px; font-weight: bold; color: #1a73e8; }
+.kpi-card .label { font-size: 13px; color: #666; margin-top: 4px; }
+table { width: 100%; border-collapse: collapse; background: white; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f8f9fa; font-weight: 600; }
+pre { background: #f0f0f0; padding: 12px; border-radius: 6px; font-size: 13px; overflow-x: auto; }
+.section { background: white; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+.tag-escalation { background: #fce8e6; color: #c5221f; }
+.tag-ok { background: #e6f4ea; color: #137333; }
+.footer { text-align: center; color: #888; font-size: 13px; margin: 40px 0; }
+</style>
+</head>
+<body>
+<h1>Supplier Onboarding Acceleration</h1>
+<p><strong>Executive Summary</strong> — Generated 2026-05-17 13:21</p>
+<p><em>SupplyOn-tailored prototype using synthetic supplier rollout data. Not an official SupplyOn integration.</em></p>
+
+<div class="kpi-grid">
+<div class="kpi-card"><div class="value">60</div><div class="label">Total Suppliers</div></div>
+<div class="kpi-card"><div class="value">13.3%</div><div class="label">Completion Rate</div></div>
+<div class="kpi-card"><div class="value">17</div><div class="label">Overdue Suppliers</div></div>
+<div class="kpi-card"><div class="value">19</div><div class="label">Escalations</div></div>
+<div class="kpi-card"><div class="value">29</div><div class="label">Outreach Items</div></div>
+<div class="kpi-card"><div class="value">24.9d</div><div class="label">Avg Rollout Age</div></div>
+</div>
+
+<div class="section">
+<h2>Suppliers by Segment</h2>
+<table><tr><th>Segment</th><th>Count</th></tr><tr><td>completed</td><td>8</td></tr><tr><td>contract_pending</td><td>4</td></tr><tr><td>in_progress</td><td>4</td></tr><tr><td>invited_no_action</td><td>17</td></tr><tr><td>missing_master_data</td><td>6</td></tr><tr><td>not_started</td><td>0</td></tr><tr><td>overdue_escalation</td><td>11</td></tr><tr><td>started_incomplete</td><td>6</td></tr><tr><td>technical_setup_pending</td><td>4</td></tr></table>
+</div>
+
+<div class="section">
+<h2>Top Blocker Reasons</h2>
+<table><tr><th>Blocker</th><th>Count</th></tr><tr><td>No response after invitation</td><td>17</td></tr><tr><td>Overdue onboarding case</td><td>11</td></tr><tr><td>Incomplete registration steps</td><td>10</td></tr><tr><td>Completed</td><td>8</td></tr><tr><td>Missing contact or master data</td><td>6</td></tr></table>
+</div>
+
+<div class="section">
+<h2>Top Priority Outreach Queue (First 10)</h2>
+<table><tr><th>ID</th><th>Supplier</th><th>Segment</th><th>Blocker</th><th>Action</th><th>Score</th></tr><tr><td>SUP-005</td><td>ZF Friedrichshafen</td><td>invited_no_action</td><td>No response after invitation</td><td>Send first reminder</td><td>35</td></tr><tr><td>SUP-007</td><td>Valeo GmbH</td><td>started_incomplete</td><td>Incomplete registration steps</td><td>Request missing onboarding information</td><td>45</td></tr><tr><td>SUP-008</td><td>Aptiv PLC</td><td>invited_no_action</td><td>No response after invitation</td><td>Send first reminder</td><td>25</td></tr><tr><td>SUP-009</td><td>HELLA GmbH</td><td>started_incomplete</td><td>Incomplete registration steps</td><td>Request missing onboarding information</td><td>35</td></tr><tr><td>SUP-014</td><td>ThyssenKrupp AG</td><td>contract_pending</td><td>Contract signature pending</td><td>Send contract support guidance</td><td>60</td></tr><tr><td>SUP-015</td><td>BASF SE</td><td>invited_no_action</td><td>No response after invitation</td><td>Send second reminder</td><td>18</td></tr><tr><td>SUP-017</td><td>ABB AG</td><td>invited_no_action</td><td>No response after invitation</td><td>Send first reminder</td><td>20</td></tr><tr><td>SUP-018</td><td>ElringKlinger AG</td><td>started_incomplete</td><td>Incomplete registration steps</td><td>Request missing onboarding information</td><td>25</td></tr><tr><td>SUP-020</td><td>Grupo Antolin</td><td>invited_no_action</td><td>No response after invitation</td><td>Send first reminder</td><td>28</td></tr><tr><td>SUP-021</td><td>Leoni AG</td><td>started_incomplete</td><td>Incomplete registration steps</td><td>Request missing onboarding information</td><td>25</td></tr></table>
+</div>
+
+<div class="section">
+<h2>Escalation Queue (First 10)</h2>
+<table><tr><th>ID</th><th>Supplier</th><th>Segment</th><th>Blocker</th><th>Assigned To</th><th>Score</th></tr><tr><td>SUP-002</td><td>Bosch GmbH</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>account_owner</td><td>85</td></tr><tr><td>SUP-003</td><td>Magna International</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>account_owner</td><td>85</td></tr><tr><td>SUP-004</td><td>Continental AG</td><td>technical_setup_pending</td><td>Technical connection pending</td><td>onboarding_specialist</td><td>60</td></tr><tr><td>SUP-006</td><td>Denso Corporation</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>onboarding_specialist</td><td>55</td></tr><tr><td>SUP-010</td><td>Mahle GmbH</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>onboarding_specialist</td><td>45</td></tr><tr><td>SUP-012</td><td>Lear Corporation</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>onboarding_specialist</td><td>45</td></tr><tr><td>SUP-016</td><td>Siemens AG</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>account_owner</td><td>85</td></tr><tr><td>SUP-019</td><td>Webasto SE</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>onboarding_specialist</td><td>45</td></tr><tr><td>SUP-026</td><td>Schaeffler Paravan</td><td>missing_master_data</td><td>Missing contact or master data</td><td>onboarding_specialist</td><td>35</td></tr><tr><td>SUP-030</td><td>Kiekert AG</td><td>overdue_escalation</td><td>Overdue onboarding case</td><td>onboarding_specialist</td><td>55</td></tr></table>
+</div>
+
+<div class="section">
+<h2>Sample Outreach Draft</h2>
+<pre style='white-space:pre-wrap'>**Betreff:** Handlungsbedarf: Schließen Sie Ihre Lieferantenregistrierung für Volkswagen AG ab
+
+Sehr geehrte(r) Thomas Becker,
+
+wir haben festgestellt, dass Sie zur Registrierung im Portal Supplier Registration bei Volkswagen AG eingeladen wurden, den Vorgang jedoch noch nicht gestartet haben. Diese Registrierung ist erforderlich, um unsere Zusammenarbeit zu beginnen.
+
+**Nächster Schritt:** Bitte melden Sie sich mit den Zugangsdaten aus Ihrer Einladungs-E-Mail im Onboarding-Portal an und schließ...</pre>
+</div>
+
+<div class="section">
+<h2>Sample Escalation Note</h2>
+<pre style='white-space:pre-wrap'>**Internal Escalation Note**
+
+**Supplier:** Bosch GmbH
+**Buyer:** Volkswagen AG
+**Status Segment:** overdue_escalation
+**Blocker Reason:** Overdue onboarding case
+**Days Since Rollout:** 55
+**Overall Score:** 85
+**Assigned To:** account_owner
+
+**Why This Was Escalated:**
+Supplier onboarding has been open for 55 days without completion. Case requires human intervention.
+
+**Suggested Next Human Step:**
+Contact supplier directly to understand blockers and drive completion. Escalate internally if ne...</pre>
+</div>
+
+<div class="section">
+<h2>Why This Matters</h2>
+<ul>
+<li>Reduces manual follow-up work by automatically classifying suppliers and drafting targeted communications</li>
+<li>Surfaces stuck suppliers earlier so onboarding teams can intervene before cases become critical</li>
+<li>Prioritizes high-impact supplier cases based on strategic importance and urgency</li>
+<li>Provides a clear path from CSV-export-based workflows to deeper API and ticketing integration later</li>
+</ul>
+</div>
+
+<div class="footer">
+Prototype built for demonstration purposes. All data is synthetic.<br>
+Not a live SupplyOn integration.
+</div>
+</body>
+</html>

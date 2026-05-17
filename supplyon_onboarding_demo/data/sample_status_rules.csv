@@ -1,0 +1,17 @@
+rule_id,registration_status,substatus,min_days,max_days,strategic_override,derived_segment,recommended_action
+R001,completed,,0,999,FALSE,completed,no_action_completed
+R002,active,,0,999,FALSE,completed,no_action_completed
+R003,activated,,0,999,FALSE,completed,no_action_completed
+R004,registered_complete,,0,999,FALSE,completed,no_action_completed
+R005,,,28,999,FALSE,overdue_escalation,route_to_onboarding_specialist
+R006,,,28,999,TRUE,overdue_escalation,route_to_account_owner
+R007,invited,,0,27,FALSE,invited_no_action,send_reminder_1
+R008,pending_registration,,0,27,FALSE,invited_no_action,send_reminder_1
+R009,started,incomplete,10,27,FALSE,started_incomplete,send_missing_data_request
+R010,in_progress,incomplete,10,27,FALSE,started_incomplete,send_missing_data_request
+R011,registration_started,incomplete,10,27,FALSE,started_incomplete,send_missing_data_request
+R012,in_progress,edi_mapping_pending,0,27,FALSE,technical_setup_pending,send_technical_guidance
+R013,in_progress,edi_setup_pending,0,27,FALSE,technical_setup_pending,send_technical_guidance
+R014,in_progress,technical_setup,0,27,FALSE,technical_setup_pending,send_technical_guidance
+R015,in_progress,contract_issues,0,27,FALSE,contract_pending,send_contract_help
+R016,in_progress,unsigned_agreement,0,27,FALSE,contract_pending,send_contract_help
